@@ -1,0 +1,115 @@
+.incr-btn {
+  background-color: green;
+  border-radius: 15px;
+  border: none;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  margin-bottom: 6px;
+}
+h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+.not-available {
+  color: red;
+  font-size: 15px;
+  margin: 0px;
+}
+.custom {
+  color: blue;
+  font-size: 15px;
+  margin: 0px;
+}
+.dish-price {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  font-weight: bold;
+  gap: 10px;
+  margin: 0px;
+}
+.dish-desc {
+  color: rgb(157, 154, 154);
+  font-size: 13px;
+  margin: 1px;
+  padding-bottom: 4px;
+}
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+.dish-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px;
+}
+.dish-Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 60%;
+}
+.dish-calories {
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dish-img {
+  height: 120px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.left-content-dish {
+  width: 60%;
+  margin: 0px;
+}
+.dishType {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.indicator {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indicator-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.non-veg {
+  border-color: red;
+}
+.veg {
+  border-color: green;
+}
+.veg .indicator-dot {
+  background-color: green;
+}
+.non-veg .indicator-dot {
+  background-color: red;
+}
+p {
+  margin: 2px;
+}

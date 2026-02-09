@@ -1,0 +1,17 @@
+.active-tab {
+  padding: 20px;
+  color: orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid orange;
+  font-size: 16px;
+  background-color: white;
+}
+.tab {
+  padding: 20px;
+  color: black;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
