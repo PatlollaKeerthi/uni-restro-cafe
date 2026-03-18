@@ -20,9 +20,19 @@ const DishItem = ({dish, count, incrementBtn, decrementBtn}) => {
             <p className="dish-desc">{dish.dish_description}</p>
             {dish.dish_Availability ? (
               <div className="incr-btn">
-                <button onClick={() => decrementBtn(dish.dish_id)}>-</button>
+                <button
+                  type="button"
+                  onClick={() => decrementBtn(dish.dish_id)}
+                >
+                  -
+                </button>
                 <p>{count}</p>
-                <button onClick={() => incrementBtn(dish.dish_id)}>+</button>
+                <button
+                  type="button"
+                  onClick={() => incrementBtn(dish.dish_id)}
+                >
+                  +
+                </button>
               </div>
             ) : (
               <p className="not-available">Not Available</p>
@@ -33,7 +43,7 @@ const DishItem = ({dish, count, incrementBtn, decrementBtn}) => {
           </div>
         </div>
         <p className="dish-calories">{dish.dish_calories} calories</p>
-        <img src={dish.dish_image} className="dish-img" />
+        <img src={dish.dish_image} alt={dish.dish_name} className="dish-img" />
       </div>
     </li>
   )

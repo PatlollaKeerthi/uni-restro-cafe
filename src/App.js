@@ -69,7 +69,7 @@ class App extends Component {
   }
 
   getActiveDishes = () => {
-    const {menuData, activeCategoryId, cartItems, cartCount} = this.state
+    const {menuData, activeCategoryId} = this.state
     const activeCategory = menuData.find(
       each => each.menu_category_id === activeCategoryId,
     )
@@ -94,13 +94,12 @@ class App extends Component {
 
   renderSuccessView = () => {
     const {
-      restautantName, 
-      menuData, 
-      activeCategoryId, 
-      cartItems, 
+      restautantName,
+      menuData,
+      activeCategoryId,
+      cartItems,
       cartCount,
-    } =
-      this.state
+    } = this.state
     const dishes = this.getActiveDishes()
     return (
       <div>
