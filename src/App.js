@@ -94,12 +94,13 @@ class App extends Component {
 
   renderSuccessView = () => {
     const {
-      restautantName,
-      menuData,
-      activeCategoryId,
-      cartItems,
+      restautantName, 
+      menuData, 
+      activeCategoryId, 
+      cartItems, 
       cartCount,
-    } = this.state
+    } =
+      this.state
     const dishes = this.getActiveDishes()
     return (
       <div>
